@@ -10,7 +10,7 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: "8156a27d-af76-47c4-b663-939ddab053c4" ## ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "leech-mirror-eleven-1" ## ${{secrets.HEROKU_APP_NAME}}
+          heroku_app_name: "leech-mirror-eleven-v2" ## ${{secrets.HEROKU_APP_NAME}}
           heroku_email: "dianaprincessbotac@gmail.com" ## "leechbotac@gmail.com" ${{secrets.HEROKU_EMAIL}}
           usedocker: true
           docker_heroku_process_type: web
